@@ -1,0 +1,191 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --bgc-color: #F5F5F5;
+    --background-color: #FFFFFF;
+    --button-color: #2196F3;
+    --bgc-footer-color: #2F303A;
+    --logo_color:#000000;
+    --bcg-team-color:#F5F4FA;
+    --text-footer-color: rgba(255, 255, 255, 0.6);
+}
+
+/* section header */
+
+.header {
+    background-color: var(--background-color);
+}
+
+.header-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--logo_color);
+}
+
+.header-logo span {
+    color: var(--button-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-color);
+}
+
+.header-add a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--button-color);
+}
+
+/* section cover */
+
+.cover {
+    text-align: center;
+    background-color: var(--bgc-footer-color);
+}
+
+.cover-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    color: var(--background-color);
+}
+
+.cover-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    background-color: var(--button-color);
+    color: var(--background-color);
+}
+
+/* section advantages */
+
+.advantages {
+    background-color: var(--bcg-color);
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-color);
+}
+
+.advantages-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color);
+}
+/* section emphasis */
+
+.emphasis {
+    background-color: var(--bcg-color);
+}
+
+.emphasis-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--title-color);
+}
+/* section team */
+
+.team {
+    background-color: var(--bcg-team-color);
+}
+
+.team-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--title-color)
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--text-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--bgc-footer-color);
+}
+
+.footer-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--background-color);
+}
+
+.footer-logo span {
+    color: var(--button-color);
+}
+
+.footer-add {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--text-footer-color);
+}
+
+.footer-add:hover,
+.footer-add:focus {
+    color: var(--background-color);
+}
+
+/* section buttons */
+
+.buttons-tup {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--bcg-team-color);
+    color:var(--title-color);
+}
+
+.buttons-tup:hover,
+.buttons-tup:focus {
+    background-color: var(--button-color);
+    color:var(--background-color);
+}
+
+/* section portfolio */
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color:var(--title-color);
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-color);
+}
