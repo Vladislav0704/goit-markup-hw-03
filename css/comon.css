@@ -1,10 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 body {
