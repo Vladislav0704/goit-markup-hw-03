@@ -22,10 +22,36 @@
     padding-bottom: 94px;
 }
 
+.link:hover,
+.link:focus {
+    color: var(--button-color);
+}
+
 /* section header */
 
 .header {
     background-color: var(--background-color);
+}
+
+.header .conteiner {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+}
+
+.header-list .item +.item {
+    margin-left: 50px;
 }
 
 .header-logo {
@@ -47,16 +73,20 @@
     color: var(--title-color);
 }
 
+
+.header-add {
+    margin-left: auto;
+}
+
+.header-add .link +.link {
+    margin-left: 50px;
+}
+
 .header-add a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--text-color);
-}
-
-.link:hover,
-.link:focus {
-    color: var(--button-color);
 }
 
 /* section cover */
